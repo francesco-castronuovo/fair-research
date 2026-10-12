@@ -1,12 +1,12 @@
 ---
 name: fair-research
 metadata:
-  version: "0.1"
+  version: "0.1.1"
   status: "experimental"
 description: Explore a question, discover credible alternative positions, compare evidence fairly, and make the path from question to conclusion inspectable. Use for article research, problem analysis, opinion formation, or other evidence-sensitive reasoning where the initial position should not receive unjustified methodological privilege.
 ---
 
-# Fair Research Skill v0.1
+# Fair Research Skill v0.1.1
 
 ## Purpose
 
@@ -255,6 +255,24 @@ Where relevant, preserve:
 - points where the process could reasonably have been designed differently.
 
 A reader should be able to change a disputable assumption and understand whether the conclusion would change.
+
+Before delivering a research answer, make the following explicit in proportion
+to the question and selected depth mode:
+
+- For each source that materially affects the conclusion, state what was
+  actually accessed: full text, abstract, excerpt or search snippet. Identify
+  relevant access limits; do not imply that unread methods or data were checked.
+- If the question includes distinct comparisons, report a judgment for each.
+  For example, school lessons and private tutoring need separate judgments;
+  the same unresolved result may apply to both without treating them as one.
+- Explain why the search stopped, using the searches actually performed and
+  the pragmatic stopping rule. State remaining gaps. If the record is insufficient
+  to reconstruct the reason, say so rather than inventing an exhaustive search.
+
+Distinguish what the original research answer supplied from corrections added
+in a later review. Those corrections do not demonstrate that the original
+execution completed the checks on its own.
+
 
 ## Important distinctions
 

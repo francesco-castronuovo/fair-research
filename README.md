@@ -4,7 +4,7 @@
 
 Fair Research asks an AI-assisted research workflow to investigate a question without automatically treating the first hypothesis as the position to defend. It is intended for article research, problem analysis, and evidence-sensitive reasoning.
 
-> **Status:** Experimental v0.1. This is not a validated scientific protocol, a systematic-review replacement, or an automated truth detector. Its effectiveness has not been systematically evaluated against other methods.
+> **Status:** Experimental v0.1.1. This is not a validated scientific protocol, a systematic-review replacement, or an automated truth detector. Its effectiveness has not been systematically evaluated against other methods.
 
 ## What it does
 
@@ -96,4 +96,4 @@ The assistant can miss sources or misread findings. Shared underlying studies mu
 
 Fair Research is by Francesco Castronuovo and licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). See [LICENSE](LICENSE), retain attribution and identify changes.
 
-The v0.1 instruction body is unchanged from the author's original handoff. The approved distribution moves version/status into YAML metadata for compatibility. Fair Research remains experimental and has not been systematically evaluated.
+The v0.1.1 update explicitly requires source-access disclosure, separate judgments for distinct comparisons, and an explanation of why the search stopped. It also distinguishes later review corrections from the initial answer. The author's original v0.1 handoff is preserved; version/status use YAML metadata for compatibility. Fair Research remains experimental and has not been systematically evaluated. The documented trials used v0.1, before these reporting additions.
